@@ -37,12 +37,12 @@
             "name": "kalk",
             "buildsystem": "cmake-ninja",
             "builddir": true,
-            "config-opts": [ "-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release" ],
+            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release", "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"],
             "sources": [ 
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/plasma-mobile/21.06/kalk-21.06.tar.xz",
-                    "sha256": "f3351ccac58c5835945c9aaf10a08849ff1399fdfd8183c45c2164eb2b7594cf"
+                    "sha256": "71d63d6f0ab1aecf27fbe65e4daf992b60846e5d4c1c313ff5d11786faf8291a"
                 }
             ]
         }
