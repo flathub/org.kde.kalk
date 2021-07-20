@@ -41,8 +41,8 @@
             "sources": [ 
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.06/kalk-21.06.tar.xz",
-                    "sha256": "71d63d6f0ab1aecf27fbe65e4daf992b60846e5d4c1c313ff5d11786faf8291a"
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.07/kalk-21.07.tar.xz",
+                    "sha256": "71de31d622cdf58c92cd9d265e4166abd74994584f5b0e5fd5d436f1a5f04c90"
                 }
             ]
         }
