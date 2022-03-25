@@ -14,12 +14,18 @@
     "modules": [
         {
             "name": "mpfr",
-            "sources": [ 
+            "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.xz",
-                    "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f"
-                } 
+                    "url": "https://www.mpfr.org/mpfr-4.1.0/mpfr-4.1.0.tar.xz",
+                    "sha256": "0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 2019,
+                        "stable-only": true,
+                        "url-template": "https://www.mpfr.org/mpfr-$version/mpfr-$version.tar.xz"
+                    }
+                }
             ]
         },
         {
@@ -38,7 +44,7 @@
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release", "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"],
-            "sources": [ 
+            "sources": [
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/plasma-mobile/22.02/kalk-22.02.tar.xz",
