@@ -14,7 +14,7 @@
     "modules": [
         {
             "name": "mpfr",
-            "sources": [ 
+            "sources": [
                 {
                     "type": "archive",
                     "url": "https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.xz",
@@ -25,7 +25,7 @@
                         "stable-only": true,
                         "url-template": "https://ftp.gnu.org/gnu/mpfr/mpfr-$version.tar.xz"
                     }
-                } 
+                }
             ]
         },
         {
@@ -43,12 +43,16 @@
             "name": "kalk",
             "buildsystem": "cmake-ninja",
             "builddir": true,
-            "config-opts": ["-DBUILD_TESTING=OFF", "-DCMAKE_BUILD_TYPE=Release", "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"],
-            "sources": [ 
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DCMAKE_BUILD_TYPE=Release",
+                "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"
+            ],
+            "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.04/kalk-22.04.tar.xz",
-                    "sha256": "e8aafd63a918e0f31064b082460c38215affe9c356fee9b8ba1ecf29cf625829",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/kalk-22.06.tar.xz",
+                    "sha256": "6a2b23e57a0e5ab09ed18ee565f0976bcd8dc2bdece5b64be14c4949adcb8325",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 234907,
