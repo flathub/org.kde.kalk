@@ -51,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/kalk-22.06.tar.xz",
-                    "sha256": "6a2b23e57a0e5ab09ed18ee565f0976bcd8dc2bdece5b64be14c4949adcb8325",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/kalk-22.09.tar.xz",
+                    "sha256": "d83d102aeb4dc66bf12c9e05e928eace2d0712ac738bdf18545d6a35b61c9169",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 234907,
