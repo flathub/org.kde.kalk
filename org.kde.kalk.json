@@ -4,7 +4,6 @@
     "runtime-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
     "command": "kalk",
-    "rename-icon": "kalk",
     "finish-args": [
         "--share=ipc",
         "--socket=wayland",
@@ -51,8 +50,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/kalk-22.09.tar.xz",
-                    "sha256": "d83d102aeb4dc66bf12c9e05e928eace2d0712ac738bdf18545d6a35b61c9169",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/kalk-22.11.tar.xz",
+                    "sha256": "38b67e175cb629c0fe338e88485e5a912c618d9ff0526097e13690510a492366",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 234907,
