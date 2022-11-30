@@ -4,7 +4,6 @@
     "runtime-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
     "command": "kalk",
-    "rename-icon": "kalk",
     "finish-args": [
         "--share=ipc",
         "--socket=wayland",
