@@ -50,13 +50,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/kalk-23.01.0.tar.xz",
-                    "sha256": "0e7fd2a89396311e7ab0eeb6de9f363c195ff17a52f6154f76dd4b9e6da4bdb4",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kalk-23.04.0.tar.xz",
+                    "sha256": "4bb3d1bddc029292785c251e01bf8e6b18d395b920e93eae796325e55f0c1ff6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 234907,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/kalk-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kalk-$version.tar.xz"
                     }
                 }
             ]
