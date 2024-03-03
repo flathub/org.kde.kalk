@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kalk",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "kalk",
     "finish-args": [
@@ -33,17 +33,6 @@
                         "stable-only": true,
                         "url-template": "https://ftp.gnu.org/gnu/mpfr/mpfr-$version.tar.xz"
                     }
-                }
-            ]
-        },
-        {
-            "name": "kf5feedback",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://invent.kde.org/jbbgameich/qtfeedback/",
-                    "commit": "a2fe291197c3a8912dbd1bc0a870c081c446e317"
                 }
             ]
         },
