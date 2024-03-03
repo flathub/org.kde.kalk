@@ -37,13 +37,66 @@
             ]
         },
         {
+            "name": "intltool",
+            "cleanup": [ "*" ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz",
+                    "sha256": "67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1385,
+                        "stable-only": true,
+                        "url-template": "https://launchpad.net/intltool/trunk/$version/+download/intltool-$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "libqalculate",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/Qalculate/libqalculate/releases/download/v4.9.0/libqalculate-4.9.0.tar.gz",
+                    "sha256": "6130ed28f7fb8688bccede4f3749b7f75e4a000b8080840794969d21d1c1bf0f",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 230126,
+                        "stable-only": true,
+                        "url-template": "https://github.com/Qalculate/libqalculate/releases/download/v$version/libqalculate-$version.tar.gz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "kirigamiaddons",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.0.1.tar.xz",
+                    "sha256": "9d013847efb0048c6a2799ee0ed281b14eee15314ac20d7fba853197e45f29b7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "kalk",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "config-opts": [
                 "-DBUILD_TESTING=OFF",
-                "-DCMAKE_BUILD_TYPE=Release",
-                "-DQt5Feedback_DIR=/app/lib/cmake/Qt5Feedback"
+                "-DCMAKE_BUILD_TYPE=Release"
             ],
             "sources": [
                 {
@@ -56,6 +109,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kalk-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-remove-unnecessary-dep.patch"
                 }
             ]
         }
