@@ -111,10 +111,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kalk-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-remove-unnecessary-dep.patch"
                 }
             ]
         }
