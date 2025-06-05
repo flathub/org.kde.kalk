@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/kalk-25.04.1.tar.xz",
-                    "sha256": "52f18aaad1eb8df71330579ed6602da478b767af7e9780bc436c67d8bb528c39",
+                    "url": "https://download.kde.org/stable/release-service/25.04.2/src/kalk-25.04.2.tar.xz",
+                    "sha256": "51e2cd6b2c7d0c971a34a846018c459868e77c55d69f4ec4909a3956c95365f6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 234907,
