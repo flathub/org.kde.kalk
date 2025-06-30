@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kalk",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "kalk",
     "finish-args": [
@@ -30,34 +30,14 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 2019,
-                        "stable-only": true,
                         "url-template": "https://ftp.gnu.org/gnu/mpfr/mpfr-$version.tar.xz"
                     }
                 }
             ]
         },
-        {
-            "name": "intltool",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz",
-                    "sha256": "67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 1385,
-                        "stable-only": true,
-                        "url-template": "https://launchpad.net/intltool/trunk/$version/+download/intltool-$version.tar.gz"
-                    }
-                }
-            ]
-        },
+        "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "libqalculate",
-            "buildsystem": "autotools",
             "sources": [
                 {
                     "type": "archive",
@@ -66,7 +46,6 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 230126,
-                        "stable-only": true,
                         "url-template": "https://github.com/Qalculate/libqalculate/releases/download/v$version/libqalculate-$version.tar.gz"
                     }
                 }
@@ -86,7 +65,6 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
-                        "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
                     }
                 }
@@ -108,7 +86,6 @@
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 234907,
-                        "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kalk-$version.tar.xz"
                     }
                 }
