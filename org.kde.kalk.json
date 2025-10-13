@@ -41,8 +41,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Qalculate/libqalculate/releases/download/v5.7.0/libqalculate-5.7.0.tar.gz",
-                    "sha256": "b0aa7e7f6b729ad88f41c3562e81bdc349e072f4df0e62ce152304d979702cfe",
+                    "url": "https://github.com/Qalculate/libqalculate/releases/download/v5.8.0/libqalculate-5.8.0.tar.gz",
+                    "sha256": "5595dc304de252945ee51bd68cef3b5f0dacf3ce1c75bd0a8f6c158c1c723741",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 230126,
