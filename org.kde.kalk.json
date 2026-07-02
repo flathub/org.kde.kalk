@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kalk-26.04.2.tar.xz",
-                    "sha256": "678215a033bc13a30075304a4c344f259d5c072d15af579fa0aa74496e7a9f63",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kalk-26.04.3.tar.xz",
+                    "sha256": "f56343fbf9c198483da46375e7f17f40b8f9282a02f98131c52ad466adcf5a92",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
