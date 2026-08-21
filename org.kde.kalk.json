@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Qalculate/libqalculate/releases/download/v5.11.0/libqalculate-5.11.0.tar.gz",
-                    "sha256": "6217a634eeb9659ebb4080c265dfab47d8f8dd4c33394b48fd5a1f83ef4538c4",
+                    "url": "https://github.com/Qalculate/libqalculate/releases/download/v5.12.0/libqalculate-5.12.0.tar.gz",
+                    "sha256": "f3dfdcf97d5a9e3a5bc0ebe66afd184721b606276eee3ba0ada8c92a5e71d44c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 230126,
@@ -47,8 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kalk-26.04.3.tar.xz",
-                    "sha256": "f56343fbf9c198483da46375e7f17f40b8f9282a02f98131c52ad466adcf5a92",
+                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/kalk-26.08.0.tar.xz",
+                    "sha256": "0952c0d918fa962015fb8c0f9777beb9b85d8eb0a2a0351797a19c1a7815a88b",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
